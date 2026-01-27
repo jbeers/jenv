@@ -53,6 +53,7 @@ Not all configuration can be handled via the script. Some of it needs to be done
 # TODO
 
 [x] setup repo
+[ ] add documentation for important utilities - boxlang, allacrity, omp
 [ ] write bash script
 [ ] write ps script
 [ ] write BoxLang script
