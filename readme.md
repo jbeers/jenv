@@ -8,10 +8,28 @@ I use this to store
 
 My dev environment includes
 
-* Alacritty
-* Oh My Posh
+| Name          | Purpose                   |
+|---------------|---------------------------|
+| BoxLang       | Portable scripts          |
+| Alacritty     | Terminal emulator         |
+| Oh My Posh    | Shell decorations         |
+| nvim          | IDE                       |
 
-# Getting Started
+# Getting Started - As Automatic As I Can Make It
+
+If mac/linux then run
+
+```
+bash script
+```
+
+If windows then run
+
+```
+ps script
+```
+
+# Getting Started - Manually
 
 Pull the repo to `~/jenv`. Then you will need to run one of
 
@@ -25,10 +43,11 @@ Pull the repo to `~/jenv`. Then you will need to run one of
 
 This will 
 
-* Install BoxLang
-* Install Alacritty
-* Install Oh-My-Posy
-* Install the correct font
+* Install all applications
+* Install supporting resources (fonts, etc...)
 * Correctly configure everything
+* Sets up shell init scripts with aliases/functions/etc...
+
+Not all configuration can be handled via the script. Some of it needs to be done manually. The script will guide you with what you need to do.
 
 
