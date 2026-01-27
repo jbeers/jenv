@@ -50,4 +50,10 @@ This will
 
 Not all configuration can be handled via the script. Some of it needs to be done manually. The script will guide you with what you need to do.
 
+# TODO
 
+[x] setup repo
+[ ] write bash script
+[ ] write ps script
+[ ] write BoxLang script
+[ ] populate with additional utilities (docker, aliases, etc...)
