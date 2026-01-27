@@ -3,3 +3,17 @@ padding = { x = 10, y = 10 }
 
 [general]
 live_config_reload = true
+import = [
+	"./alacritty-theme/themes/gruvbox_material_hard_dark.toml"
+]
+
+[mouse]
+bindings = [
+	{ mouse = "Right", mods = "Control", action = "Paste" }
+]
+
+[font]
+#normal = { family = "MesloLGM Nerd Font Mono", style = "Regular" }
+normal = { family = "BlexMono Nerd Font Mono", style = "Regular" }
+offset = { x = 0, y = 0 }
+#size = 15
