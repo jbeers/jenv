@@ -30,6 +30,22 @@ return require('packer').startup(function(use)
     		}
 	}	 
   use { 'christoomey/vim-tmux-navigator', lazy = false }
+use	  {
+		  "echasnovski/mini.move",
+		  version = false,
+		  config = function()
+		    require("mini.move").setup({
+		      mappings = {
+			left  = '<A-h>',
+			right = '<A-l>',
+			down  = '<A-j>',
+			up    = '<A-k>',
+		      },
+		    })
+		  end,
+	}
+
+
   -- My plugins here
   -- use 'foo1/bar1.nvim'
   -- use 'foo2/bar2.nvim'

@@ -84,6 +84,12 @@ _G.packer_plugins = {
     path = "/home/jacob/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  ["mini.move"] = {
+    config = { "\27LJ\2\n‡\1\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\2B\0\2\1K\0\1\0\rmappings\1\0\1\rmappings\0\1\0\4\tleft\n<A-h>\tdown\n<A-j>\nright\n<A-l>\aup\n<A-k>\nsetup\14mini.move\frequire\0" },
+    loaded = true,
+    path = "/home/jacob/.local/share/nvim/site/pack/packer/start/mini.move",
+    url = "https://github.com/echasnovski/mini.move"
+  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/home/jacob/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
@@ -122,6 +128,10 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: mini.move
+time([[Config for mini.move]], true)
+try_loadstring("\27LJ\2\n‡\1\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\2B\0\2\1K\0\1\0\rmappings\1\0\1\rmappings\0\1\0\4\tleft\n<A-h>\tdown\n<A-j>\nright\n<A-l>\aup\n<A-k>\nsetup\14mini.move\frequire\0", "config", "mini.move")
+time([[Config for mini.move]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
